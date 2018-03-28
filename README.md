@@ -1,4 +1,4 @@
-<img src=https://raw.githubusercontent.com/amitshekhariitbhu/Fast-Android-Networking/master/assets/androidnetworking.png >
+<!--<img src=https://raw.githubusercontent.com/amitshekhariitbhu/Fast-Android-Networking/master/assets/androidnetworking.png >
 
 # Fast Android Networking Library
 
@@ -10,7 +10,7 @@
 [![Download](https://api.bintray.com/packages/amitshekhariitbhu/maven/android-networking/images/download.svg) ](https://bintray.com/amitshekhariitbhu/maven/android-networking/_latestVersion)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://opensource.org/licenses/Apache-2.0)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/amitshekhariitbhu/Fast-Android-Networking/blob/master/LICENSE)
-
+-->
 ### About Fast Android Networking Library
 
 Fast Android Networking Library is a powerful library for doing any type of networking in Android applications which is made on top of [OkHttp Networking Layer](http://square.github.io/okhttp/).
@@ -28,11 +28,11 @@ Fast Android Networking Library takes care of each and everything. So you don't 
 * As it uses [OkHttp](http://square.github.io/okhttp/) , most important it supports HTTP/2.  
 
 
-### RxJava2 Support, [check here](https://amitshekhariitbhu.github.io/Fast-Android-Networking/rxjava2_support.html).
+### RxJava2 Support, [check here](https://sonali9421.github.io/Fast-Android-Networking/rxjava2_support.html).
 
 ### RxJava2 + Fast Android Networking + Dagger2 with MVP Architecture Project, [Check here](https://github.com/MindorksOpenSource/android-mvp-architecture)
 
-### Another awesome library for debugging databases and shared preferences, [Check here](https://github.com/amitshekhariitbhu/Android-Debug-Database)
+### Another awesome library for debugging databases and shared preferences, [Check here](https://github.com/sonali9421/Android-Debug-Database)
 
 ### RxJava2 + Fast Android Networking + Dagger2 with MVVM Architecture Project, [Check here](https://github.com/MindorksOpenSource/android-mvvm-architecture)
 
@@ -43,7 +43,7 @@ Fast Android Networking Library takes care of each and everything. So you don't 
 
 For full details, visit the documentation on our web site :
 
-<a href="https://amitshekhariitbhu.github.io/Fast-Android-Networking" target="_blank"><img src="https://raw.githubusercontent.com/amitshekhariitbhu/Fast-Android-Networking/master/assets/get_started.png" width="150" height="42"/></a>
+<a href="https://sonali9421.github.io/Fast-Android-Networking" target="_blank"><img src="https://raw.githubusercontent.com/sonali9421/Fast-Android-Networking/master/assets/get_started.png" width="150" height="42"/></a>
 
 ## Requirements
 
@@ -55,7 +55,7 @@ Fast Android Networking Library supports Android 2.3 (Gingerbread) and later.
 
 Add this in your build.gradle
 ```groovy
-compile 'com.amitshekhar.android:android-networking:1.0.1'
+compile 'com.sonali9421.android:android-networking:1.0.1'
 ```
 Do not forget to add internet permission in manifest if already not present
 ```xml
@@ -595,7 +595,7 @@ AndroidNetworking.initialize(getApplicationContext(),okHttpClient);
 * Fast Android Networking Library supports uploading any type of file (supports multipart upload)
 * Fast Android Networking Library supports cancelling a request
 * Fast Android Networking Library supports setting priority to any request (LOW, MEDIUM, HIGH, IMMEDIATE)
-* Fast Android Networking Library supports [RxJava](https://amitshekhariitbhu.github.io/Fast-Android-Networking/rxjava2_support.html)
+* Fast Android Networking Library supports [RxJava](https://sonali9421.github.io/Fast-Android-Networking/rxjava2_support.html)
 
 As it uses [OkHttp](http://square.github.io/okhttp/) as a networking layer, it supports:
 
@@ -608,7 +608,7 @@ As it uses [OkHttp](http://square.github.io/okhttp/) as a networking layer, it s
 * In Fast Android Networking Library, OkHttpClient can be customized for every request easily — like timeout customization, etc. for each request.
 * As Fast Android Networking Library uses [OkHttp](http://square.github.io/okhttp/) and [Okio](https://github.com/square/okio), it is faster.
 * Single library for all type of networking.
-* Supports RxJava, RxJava2 -> [Check here](https://amitshekhariitbhu.github.io/Fast-Android-Networking/rxjava2_support.html)
+* Supports RxJava, RxJava2 -> [Check here](https://sonali9421.github.io/Fast-Android-Networking/rxjava2_support.html)
 * Current bandwidth and connection quality can be obtained to decide logic of code.
 * Executor can be passed to any request to get response in another thread.
 * Complete analytics of any request can be obtained.
@@ -628,19 +628,15 @@ As it uses [OkHttp](http://square.github.io/okhttp/) as a networking layer, it s
 * [Square](https://square.github.io/) - As both [OkHttp](http://square.github.io/okhttp/) and [Okio](https://github.com/square/okio)
   used by Fast Android Networking is developed by [Square](https://square.github.io/).
 * [Volley](https://android.googlesource.com/platform/frameworks/volley/) - As Fast Android Networking uses ImageLoader that is developed by [Volley](https://android.googlesource.com/platform/frameworks/volley/).  
-* [Prashant Gupta](https://github.com/PrashantGupta17) - For RxJava, RxJava2 Support - [RxJava Support](https://github.com/amitshekhariitbhu/Fast-Android-Networking/wiki/Using-Fast-Android-Networking-Library-With-RxJava)
+* [Prashant Gupta](https://github.com/PrashantGupta17) - For RxJava, RxJava2 Support - [RxJava Support](https://github.com/sonali9421/Fast-Android-Networking/wiki/Using-Fast-Android-Networking-Library-With-RxJava)
 
 ### [Check out Mindorks awesome open source projects here](https://mindorks.com/open-source-projects)
 
 ### Contact - Let's become friend
-- [Twitter](https://twitter.com/amitiitbhu)
-- [Github](https://github.com/amitshekhariitbhu)
-- [Medium](https://medium.com/@amitshekhar)
-- [Facebook](https://www.facebook.com/amit.shekhar.iitbhu)
+- [Github](https://github.com/sonali9421)
 
 ### License
 ```
-   Copyright (C) 2016 Amit Shekhar
    Copyright (C) 2011 Android Open Source Project
 
    Licensed under the Apache License, Version 2.0 (the "License");
